@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <title>NEWS | <%= category%></title>
+</head>
+<body>
+    <h3 class = "title"><%= count%> последних новостей в категории <%= category%></h3>
+    <dl class = "news_block">
+        <% items.forEach(item => { %>
+
+            
+
+            <div class = "news_item"> 
+                <dt><%= item["title"]%></dt> 
+                <dd><%= item["content"]%></dd>
+            </div>
+
+
+
+        <% }) %>
+        </dl>
+</body>
+</html>

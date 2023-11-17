@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+.title{
+    color:brown;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    font-size: 40px;
+}
+.news_block{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    
+
+}
+.news_item{
+    border: 1px brown solid;
+    padding: 10px;
+    margin: 3px;
+    transition: ease-in;
+    transition-duration: .1s;
+}
+.news_item:hover{
+    background-color: rgb(238, 177, 155);
+}
+dt{
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 7px;
+}
